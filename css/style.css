@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .logo{
     width: 220px;
@@ -90,7 +91,7 @@ body{
 
   .slider {
     position: absolute;
-    width: 153px;
+    width: 200px;
     height: 40px;
     cursor: pointer;
     top: 0;
@@ -106,10 +107,11 @@ body{
   }
   
   .slider:before {
+    margin-top: 7px;
     position: absolute;
-    height: 39px;
-    width: 39px;
-    background-color:  #DEEBFF;
+    height: 25px;
+    width: 25px;
+    background-color:  #9356DC ;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -130,13 +132,19 @@ body{
     
   }
 
-  input:checked + .slider.familyfriendly:before {
+  input:checked + .slider.stepone:before {
+    -webkit-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+
+  input:checked + .slider.steptwo:before {
     -webkit-transform: translateX(114px);
     -ms-transform: translateX(114px);
     transform: translateX(114px);
   }
 
-  input:checked + .slider.pets:before {
+  input:checked + .slider.stepthree:before {
     -webkit-transform: translateX(114px);
     -ms-transform: translateX(114px);
     transform: translateX(114px);
@@ -157,29 +165,42 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:  #0065FC;
+    color:  #FFFFFF ;
     font-size: 18px;
   }
 
-  .slider.round.lowcost:before {
+  .slider.round.stepone:before {
     font-family: "FontAwesome";
-    content:'\f53a';
+    font-size: 10px;
+    content:'1';
+   }
+
+   .slider.round.steptwo:before {
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content:'2';
+   }
+
+   .slider.round.stepthree:before {
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content:'3';
    }
 
    .sizeOne{
-    width: 295px;
+    width: 265px;
    }
 
    .labelOne{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 12px;
     padding-right: 7px;
     font-size: 12px;
     color:  #000000;
     font-weight: 100px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
    }
 
    .stepsTags{
@@ -190,7 +211,9 @@ body{
     justify-content: center;
    }
 
-  
+   .fa-list-ul{
+     margin-left: 32px;
+   }
 
 .restaurants{
     height: auto;
@@ -264,6 +287,10 @@ body{
 .infoCard{
     display: flex;
     position: relative;
+}
+
+#fullLove{
+  color:#9356DC;
 }
 
 footer{
