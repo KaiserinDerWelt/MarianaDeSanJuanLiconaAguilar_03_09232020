@@ -328,7 +328,7 @@ body{
 footer{
     width: 100%;
     height: 150px;
-    background-color: #EFEFEF;
+    background-color: #282828;
     
   }
 
@@ -339,10 +339,27 @@ footer{
     position: relative;
     margin-left: 20px;
     margin-right: 20px;
+    color: #FFFFFF;
   }
 
   .GeneralColumn{
   width: 310px;
   padding-left: 30px;
   text-align: left;
+  }
+
+  .logoText{
+    font-family: 'Shrikhand', cursive !important;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: lighter;
+
+  }
+
+  .fa-utensils{
+   margin-right: 5px;
+  }
+
+  .fa-handshake{
+    margin-right: 5px;
   }
