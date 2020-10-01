@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .content{
@@ -42,11 +42,13 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .explore{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contentButton{
@@ -62,7 +64,7 @@ body{
     border-color: #FF79DA;
     border-width: 0.1px;
     border-style: double;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .lightTextContentHero{
@@ -70,6 +72,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contentWorks{
@@ -78,7 +81,7 @@ body{
     font-size: 18px;
     margin-right: 20px;
     margin-left: 20px;
-    font-weight: bold !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btnAction {
@@ -163,7 +166,7 @@ body{
   }
   
   .slider.round:hover {
-    background-color: #9356DC;
+    background-color: #f0e8fa;
     opacity: 0.3;
   }
   
@@ -204,10 +207,10 @@ body{
     justify-content: center;
     margin-top: 12px;
     padding-right: 7px;
-    font-size: 12px;
+    font-size: 10px;
     color:  #000000;
     font-weight: 150px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
    }
 
@@ -217,6 +220,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
    }
 
    .fa-list-ul{
@@ -236,6 +240,7 @@ body{
 
 .titleRestaurants{
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .columnRestaurants{
     display: flex;
@@ -252,7 +257,9 @@ body{
     margin-bottom: 25px;
     margin-right: 40px;
     margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .tag-right {
@@ -268,7 +275,7 @@ body{
   }
 
 .restoPicture{
-    width: 250px;
+    width: 248px;
     height: 133px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -280,7 +287,8 @@ body{
     margin-top: 5px;
     margin-bottom: 3px;
     margin-left: 5px;
-    font-size: 13.5px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .heartIconOne{
@@ -313,6 +321,7 @@ body{
     font-size: 14px;
     font-weight: 100;
     color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
 
 .infoCard{
@@ -340,6 +349,7 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
     color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
   }
 
   .GeneralColumn{
