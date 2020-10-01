@@ -4,6 +4,7 @@ body{
     margin-bottom:0px ;
     margin-left:0px ;
     margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .topMenu{
@@ -77,6 +78,7 @@ body{
     font-size: 18px;
     margin-right: 20px;
     margin-left: 20px;
+    font-weight: bold !important;
 }
 
 .btnAction {
@@ -204,8 +206,9 @@ body{
     padding-right: 7px;
     font-size: 12px;
     color:  #000000;
-    font-weight: 100px;
+    font-weight: 150px;
     letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
    }
 
    .stepsTags{
