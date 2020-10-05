@@ -357,7 +357,7 @@ footer{
     font-family: 'Roboto', sans-serif;
   }
 
-  .GeneralColumn{
+  .generalColumn{
   width: 310px;
   padding-left: 30px;
   text-align: left;
@@ -378,3 +378,41 @@ footer{
   .fa-handshake{
     margin-right: 5px;
   }
+
+  .menuHeader{
+    display: flex;
+    position: relative;
+  }
+
+  .menuContainer{
+    width: 100%;
+    height: auto;
+    background-color: #EFEFEF;
+  }
+
+  .columnTitle{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .menuOffer{
+    display: flex;
+    position: relative;
+  }
+
+  .menuColumn{
+    width: 370px;
+    padding-left: 30px;
+    text-align: left;
+    }
+
+    .menuItem{
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
