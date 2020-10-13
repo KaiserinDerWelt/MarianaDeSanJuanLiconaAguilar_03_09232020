@@ -522,3 +522,8 @@ footer{
   font-weight: bold;
 }
 
+/*Animation*/
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 3s;
+  --animate-delay: 0.9s;
+}
