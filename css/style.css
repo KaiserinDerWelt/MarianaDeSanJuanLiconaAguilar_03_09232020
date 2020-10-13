@@ -29,6 +29,7 @@ body{
     font-family: 'Roboto', sans-serif;
     box-shadow: 20px 0 20px rgba(0, 0, 0, 0.2);
 }
+
 .fa-map-marker{
   margin-right: 5px;
 }
@@ -37,7 +38,6 @@ body{
     width: auto;
     height: auto;
     align-items: center;
-
 }
 
 .contentHero{
@@ -72,6 +72,7 @@ body{
     background-image: linear-gradient(to bottom right, #FF79DA,#9356DC);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .contentButton:hover {
   background-color: #f0e8fa;
   opacity: 0.4;
@@ -214,7 +215,6 @@ body{
     padding-right: 7px;
     font-size: 11px;
     color:  #000000;
-    font-weight: 150px;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
    }
@@ -338,14 +338,12 @@ body{
 
 #fullLove{
   color:#9356DC;
-  
 }
 
 footer{
     width: 100%;
     height: 150px;
     background-color: #282828;
-    
   }
 
   .footerContent{
@@ -380,6 +378,10 @@ footer{
   .fa-handshake{
     margin-right: 5px;
   }
+/*Start product template
+  .bannerHero{
+  background-image: ;
+  }*/
 
   .menuHeader{
     display: flex;
@@ -387,27 +389,42 @@ footer{
   }
 
   .restaurantIntroduction{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 1.5px;
     font-family: 'Shrikhand', cursive !important;
+    text-shadow: 2px 2px #FFFFFF;
+  }
+
+  .columnLove{
+   margin-left: 100px;
+   margin-top: 22px;
   }
 
   .menuContainer{
     width: 100%;
     height: auto;
     background-color: #EFEFEF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .columnTitle{
-    margin-left: 25px;
+    margin-left: 70px;
     margin-right: 25px;
   }
 
+  .columnName{
+    
+    font-weight: lighter;
+    opacity: 0.7;
+    margin-left: 48px;
+
+  }
   .menuOffer{
     display: flex;
     position: relative;
+
   }
 
   .menuColumn{
@@ -417,6 +434,7 @@ footer{
     }
 
     .menuItem{
+    height: 70px;
     display: flex;
     position: relative;
     border-radius: 20px;
@@ -424,5 +442,28 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    
+
+    .itemInfo{
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 6px;
+    }
+
+    .dishName{
+      margin-top: 5px;
+      margin-bottom: 3px;
+      margin-left: 5px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .priceDish{
+      margin-top: 30px;
+      margin-left: 180px;
+      font-size: 20px;
+  }
