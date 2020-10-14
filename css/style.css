@@ -646,13 +646,13 @@ footer{
   background-color: #99E2D0;
 }
 
-.item:hover .checkIn{
+.menuItem:hover .checkIn{
   width: 100px;
   transition-duration: 500ms;
   background-color: #99E2D0;
 }
 
-.item:hover .priceAnimation{
+.menuItem:hover .priceAnimation{
   width: 150px;
   transition-property: width;
   transition-duration: 500ms;
@@ -662,7 +662,7 @@ footer{
   transition-duration: 500ms;
 }
 
-.item:hover .containerCheckIcon{
+.menuItem:hover .containerCheckIcon{
   transform: rotate(360deg);
   width: auto;
 }
