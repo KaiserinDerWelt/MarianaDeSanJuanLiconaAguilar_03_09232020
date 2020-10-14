@@ -301,6 +301,7 @@ body{
     margin-bottom: 3px;
     margin-left: 5px;
     font-size: 12px;
+    white-space: nowrap !important;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -451,7 +452,7 @@ footer{
     }
 
     .menuItem{
-    height: 70px;
+    height: 83px;
     display: flex;
     position: relative;
     border-radius: 20px;
@@ -646,8 +647,8 @@ footer{
 
 .priceAnimation{
   padding-left:10px;
-  white-space: nowrap !important;
-  width: 45px;
+  white-space: nowrap;
+  width: 0px;
   transition-property: width;
   transition-duration: 500ms
 }
@@ -667,13 +668,13 @@ footer{
 }
 
 .menuItem:hover .checkIn{
-  width: 95px;
+  width: 75px;
   transition-duration: 500ms;
   background-color: #99E2D0;
 }
 
 .menuItem:hover .priceAnimation{
-  width: 90px;
+  width: 100px;
   transition-property: width;
   transition-duration: 500ms;
 }
