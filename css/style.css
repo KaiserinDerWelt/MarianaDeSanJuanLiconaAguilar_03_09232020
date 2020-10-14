@@ -240,7 +240,7 @@ body{
    }
 
    .fa-check-circle{
-    color: red;
+    color:#FFFFFF;
     font-size: 25px;
    }
 
@@ -457,6 +457,11 @@ footer{
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 40px;
+    cursor: pointer;
+    overflow:hidden;
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -637,23 +642,24 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0px 15px 15px 0px;
+  overflow: hidden;
+  border-radius: 0px 20px 20px 0px;
   transition-property: width;
   transition-duration: 500ms;
-  transition-timing-function: ease-in-out;
-  width: 25px;
+  width: 0px;
   height: 100%;
   background-color: #99E2D0;
+  transition-timing-function: ease-in-out;
 }
 
 .menuItem:hover .checkIn{
-  width: 100px;
+  width: 80px;
   transition-duration: 500ms;
   background-color: #99E2D0;
 }
 
 .menuItem:hover .priceAnimation{
-  width: 150px;
+  width: 90px;
   transition-property: width;
   transition-duration: 500ms;
 }
@@ -665,4 +671,33 @@ footer{
 .menuItem:hover .containerCheckIcon{
   transform: rotate(360deg);
   width: auto;
+}
+
+.hideMenu{
+  animation: menuhide, slideup;
+  animation-duration: 1000ms,1000ms;
+  animation-delay:0ms,500ms;
+}
+
+@keyframes hideMenu{
+  from{
+      opacity: 0;
+  }
+
+  to{
+      opacity: 0;
+  }
+}
+
+@keyframes slideup {
+
+  from{
+      transform: translateY(20px);
+      opacity:0;
+  }
+
+  to{
+      transform: translateY(0);
+      opacity:1;
+  }
 }
