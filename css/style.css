@@ -532,14 +532,16 @@ footer{
 .lds-spinner {
   width: 20px;
   height: 20px;
+  position: absolute;
+  left: 43%;
+  top: 50%;
+  z-index: 1 !important;
 }
+
 .lds-spinner div {
   transform-origin: 80px 80px;
   animation: lds-spinner 1.2s linear infinite;
   position: absolute;
-  left: 43%;
-  top: 50%;
-  z-index: 1;
 }
 .lds-spinner div:after {
   content: "Foodie Babe";
