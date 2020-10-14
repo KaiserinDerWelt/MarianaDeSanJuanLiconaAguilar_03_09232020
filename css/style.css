@@ -529,10 +529,9 @@ footer{
 }
 
 
-lds-spinner {
-  color: official;
-  width: 200px;
-  height: 200px;
+.lds-spinner {
+  width: 20px;
+  height: 20px;
 }
 .lds-spinner div {
   transform-origin: 80px 80px;
@@ -543,7 +542,8 @@ lds-spinner {
   z-index: 1;
 }
 .lds-spinner div:after {
-  content: "";
+  content: "Foodie Babe";
+  color: purple;
   display: block;
   position: absolute;
   top: 3px;
@@ -610,4 +610,12 @@ lds-spinner {
   }
 }
 
+#hideMe {
+  animation: cssAnimation 0s 5s forwards;
+  opacity: 1; 
+}
+
+@keyframes cssAnimation {
+  to   { opacity: 0; }
+}
 
