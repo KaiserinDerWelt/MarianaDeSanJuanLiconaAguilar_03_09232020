@@ -239,6 +239,11 @@ body{
     color: #9356DC;
    }
 
+   .fa-check-circle{
+    color: red;
+    font-size: 25px;
+   }
+
 .restaurants{
     height: auto;
     margin-right: 20px;
@@ -619,7 +624,45 @@ footer{
   to   { opacity: 0; }
 }
 
-/*.fa-check-circle{
-color: #FFFFFF;
-font-size: 20px;
-}*/
+.priceAnimation{
+  padding-left:10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 270px;
+  transition-property: width;
+  transition-duration: 500ms
+}
+
+.checkIn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 15px 15px 0px;
+  transition-property: width;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  width: 25px;
+  height: 100%;
+  background-color: #99E2D0;
+}
+
+.item:hover .checkIn{
+  width: 100px;
+  transition-duration: 500ms;
+  background-color: #99E2D0;
+}
+
+.item:hover .priceAnimation{
+  width: 150px;
+  transition-property: width;
+  transition-duration: 500ms;
+}
+
+.containerCheckIcon{
+  transition-duration: 500ms;
+}
+
+.item:hover .containerCheckIcon{
+  transform: rotate(360deg);
+  width: auto;
+}
