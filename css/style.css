@@ -304,6 +304,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.spacingNice{
+  letter-spacing: 1px;
+}
 .heartIconOne{
     margin-top: 10px;
     margin-left: 120px;
@@ -479,7 +482,7 @@ footer{
       font-size: 14px;
       font-weight: bold;
   }
-
+/*
   .priceDishTwo{
     margin-top: 30px;
     margin-left: 65px;
@@ -529,7 +532,7 @@ footer{
   font-size: 14px;
   font-weight: bold;
 }
-
+*/
 /*Animation*/
 .animate__animated.animate__fadeInDown {
   --animate-duration: 3s;
@@ -631,9 +634,8 @@ footer{
 
 .priceAnimation{
   padding-left:10px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 270px;
+  white-space: nowrap !important;
+  width: 45px;
   transition-property: width;
   transition-duration: 500ms
 }
@@ -653,7 +655,7 @@ footer{
 }
 
 .menuItem:hover .checkIn{
-  width: 80px;
+  width: 95px;
   transition-duration: 500ms;
   background-color: #99E2D0;
 }
@@ -673,31 +675,3 @@ footer{
   width: auto;
 }
 
-.hideMenu{
-  animation: menuhide, slideup;
-  animation-duration: 1000ms,1000ms;
-  animation-delay:0ms,500ms;
-}
-
-@keyframes hideMenu{
-  from{
-      opacity: 0;
-  }
-
-  to{
-      opacity: 0;
-  }
-}
-
-@keyframes slideup {
-
-  from{
-      transform: translateY(20px);
-      opacity:0;
-  }
-
-  to{
-      transform: translateY(0);
-      opacity:1;
-  }
-}
