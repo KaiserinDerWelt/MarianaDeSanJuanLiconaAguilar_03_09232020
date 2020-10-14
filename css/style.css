@@ -531,6 +531,7 @@ footer{
 
 .spinner {
   position: absolute;
+  z-index: 1;
   left: 45%;
   top: 50%;
   border: 16px solid #f3f3f3;
@@ -540,7 +541,6 @@ footer{
   height: 120px;
   animation: spin linear infinite;
   animation-duration: 3s;
-
 }
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
