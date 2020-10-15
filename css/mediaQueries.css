@@ -124,7 +124,28 @@
        .menuOffer{
         display: flex;
         flex-direction: column;
-    
+      }
+
+      .heartTemplate{
+        position: absolute;
+        z-index:1;
+        opacity:1;
+        transition-property: all;
+        transition-duration: 1000ms;
+        transition-timing-function: linear;
+        background-color: #EFEFEF;
+        margin-left: -25px;
+      }
+      
+      .heartTemplateFull{
+        margin-top: 38px;
+        position: absolute;
+        z-index:0;
+        color: #9356DC;
+      }
+
+      .heartTemplate:hover{
+        opacity: 0;
       }
 
        footer{

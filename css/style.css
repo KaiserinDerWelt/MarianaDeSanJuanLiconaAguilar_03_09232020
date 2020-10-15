@@ -110,7 +110,7 @@ body{
     width: 60px;
     height: 34px;
   }
-  
+
   .btnAction input{
     opacity: 0;
     width: 0;
@@ -339,7 +339,6 @@ body{
 
 .heartTemplate:hover{
   opacity: 0;
-  
 }
 
 .heartTemplateFull{
