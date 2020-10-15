@@ -330,24 +330,67 @@ body{
     margin-top: 10px;
     margin-left: 120px;
     font-size: 20px;
+    position: absolute;
+    z-index:1;
+    opacity:1;
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: linear;
+    background-color:white;
+}
+.heartIconOne:hover{
+  opacity: 0;
 }
 
 .heartIconTwo{
   margin-top: 10px;
   margin-left: 90px;
   font-size: 20px;
+  position: absolute;
+  z-index:1;
+  opacity:1;
+  transition-property: all;
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+  background-color:white;
+}
+
+.heartIconTwo:hover{
+  opacity: 0;
 }
 
 .heartIconThree{
   margin-top: 10px;
   margin-left: 155px;
   font-size: 20px;
+  position: absolute;
+  z-index:1;
+  opacity:1;
+  transition-property: all;
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+  background-color:white;
+}
+
+.heartIconThree:hover{
+  opacity: 0;
 }
 
 .heartIconFour{
   margin-top: 10px;
   margin-left: 120px;
   font-size: 20px;
+  position: absolute;
+  z-index:1;
+  opacity:1;
+  transition-property: all;
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+  background-color:white;
+}
+
+.heartIconFour:hover{
+  opacity: 0;
 }
 
 .restaurantLocation{
@@ -364,12 +407,41 @@ body{
     position: relative;
 }
 
-
-.heartIconOne:hover .fa-heart{
+.heartIconOneFull{
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 20px;
+  position: absolute;
+  z-index:0;
   color:#9356DC;
 }
 
+.heartIconTwoFull{
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 20px;
+  position: absolute;
+  z-index:0;
+  color: #9356DC;
+}
 
+.heartIconThreeFull{
+  margin-top: 10px;
+  margin-left: 155px;
+  font-size: 20px;
+  position: absolute;
+  z-index:0;
+  color: #9356DC;
+}
+
+.heartIconFourFull{
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 20px;
+  position: absolute;
+  z-index:0;
+  color: #9356DC;
+}
 footer{
     width: auto;
     height: 150px;
