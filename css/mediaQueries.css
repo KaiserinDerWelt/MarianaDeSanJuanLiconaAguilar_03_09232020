@@ -1,6 +1,6 @@
 @media (max-width: 480px){
     body{
-        width: 90%;
+        width: 100%;
         height: auto;
         overflow-x: hidden;
         margin-bottom:5px ;
@@ -9,6 +9,60 @@
         font-family: 'Roboto', sans-serif;
     }
 
+    .lds-spinner {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 27%;
+        top: 40%;
+        z-index: 1 !important;
+      }
+
+    .locationBar{
+        width: auto;
+        height: 40%;
+        background-color: #EFEFEF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contentHero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .content{
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .lightTextContentHero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100; 
+        margin-top: 20px;
+    }
+
+    .contentWorks{
+        display: flex;
+        justify-content: left;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
     .stepsTags{
         width: 100%;
         padding-top: 20px;
@@ -19,6 +73,36 @@
         justify-content: center;
         font-family: 'Roboto', sans-serif;
        }
+
+       .titleRestaurants{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    .restaurantItemContainer{
+        position: relative;
+        width: 260px;
+        height: 190px;
+        border-radius: 20px; 
+        background-color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-right: 40px;
+        margin-left: 18px;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    }
+
+    .restoPicture{
+        width: 260px;
+        height: 133px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        z-index: 1;
+    }
+    
 
        .btnAction {
         position: relative;
@@ -36,6 +120,12 @@
         position: relative;
         flex-direction: column;
        }
+
+       .menuOffer{
+        display: flex;
+        flex-direction: column;
+    
+      }
 
        footer{
         width: auto;
