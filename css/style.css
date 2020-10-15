@@ -237,15 +237,26 @@ body{
     margin-left: 32px;
    }
 
+   .slider:hover .fa-mobile-alt{
+     color: #9356DC;
+   }
+
    .fa-list-ul{
      margin-left: 32px;
    }
 
+   .slider:hover .fa-list-ul{
+    color: #9356DC;
+  }
+
    .fa-store{
     margin-left: 32px;
-    color: #9356DC;
    }
 
+   .slider:hover .fa-store{
+    color: #9356DC;
+  }
+   
    .fa-check-circle{
     color:#FFFFFF;
     font-size: 25px;
