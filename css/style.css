@@ -407,6 +407,19 @@ footer{
     margin-right: 5px;
   }
 
+  a:-webkit-any-link {
+    color: inherit !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+  }
+  
+/*Link masking for firefox*/
+  a:any-link {
+    color: inherit !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+  }
+
   .bannerHero{
     background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     background-position: center;
