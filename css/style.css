@@ -841,3 +841,22 @@ footer{
   width: auto;
 }
 
+.BackButton{
+	position:fixed;
+	width:45px;
+	height:45px;
+  top:22px;
+  left:25px;
+	background-color:#FFFFFF;
+	color:#000000;
+	border-radius:40px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+}
+
+.my-back{
+	margin-top:14px;
+}
+
