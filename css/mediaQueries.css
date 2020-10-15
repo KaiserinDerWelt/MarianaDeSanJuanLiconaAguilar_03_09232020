@@ -136,7 +136,7 @@
         transition-duration: 1000ms;
         transition-timing-function: linear;
         background-color: #EFEFEF;
-        margin-left: -25px;
+        margin-left: -80px;
       }
       
       .heartTemplateFull{
@@ -144,11 +144,40 @@
         position: absolute;
         z-index:0;
         color: #9356DC;
+        margin-left: -80px;
       }
 
       .heartTemplate:hover{
         opacity: 0;
       }
+
+      .columnName {
+        border-bottom: 3px solid #2F9D8D;
+        border-image: linear-gradient(to right, #2F9D8D 15%, rgba(0,0,0,0) 15%);
+        border-image-slice: 1;
+        font-weight: lighter;
+        opacity: 0.7;
+        margin-left: 0px;
+    }
+    
+    .menuItem{
+        width: 310px;
+        height: 83px;
+        display: flex;
+        position: relative;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 0px;
+        cursor: pointer;
+        overflow:hidden;
+        transition-property: all;
+        transition-duration: 1000ms;
+        transition-timing-function: ease-in-out;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
 
       .heartIconOne{
         margin-top: 10px;
@@ -252,6 +281,31 @@
         position: absolute;
         z-index:0;
         color: #9356DC;
+      }
+
+      .BackButton{
+        position:fixed;
+        width:22px;
+        height:22px;
+        top:22px;
+        left:25px;
+        background-color:#FFFFFF;
+        color:#000000;
+        border-radius:40px;
+        text-align:center;
+        box-shadow: 2px 2px 3px #999;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:15px;
+    }
+    
+    .my-back{
+        margin-top:4px;
+    }
+
+    .columnTitle{
+        margin-left: 70px;
+        margin-right: 25px;
+        margin-left: 30px;
       }
 
        footer{
