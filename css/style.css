@@ -188,21 +188,21 @@ body{
   }
 
   .slider.round.stepone:before {
-    font-family: "FontAwesome";
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     content:'1';
     margin-bottom: 7px;
    }
 
    .slider.round.steptwo:before {
-    font-family: "FontAwesome";
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     content:'2';
     margin-bottom: 7px;
    }
 
    .slider.round.stepthree:before {
-    font-family: "FontAwesome";
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     content:'3';
     margin-bottom: 7px;
@@ -412,7 +412,7 @@ footer{
     cursor: pointer !important;
     text-decoration: none !important;
   }
-  
+
 /*Link masking for firefox*/
   a:any-link {
     color: inherit !important;
