@@ -209,17 +209,17 @@ body{
     width: 265px;
    }
 
-   .labelOne{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12px;
-    padding-right: 7px;
-    font-size: 11px;
-    color:  #000000;
+   
+
+   span {
+    padding-right: 1px;
+    font-size: 13px;
+    color: #000000;
     letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
-   }
+    }
 
    .stepsTags{
     width: 100%;
