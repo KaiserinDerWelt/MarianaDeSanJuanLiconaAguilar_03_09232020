@@ -1,2 +1,57 @@
 @media (max-width: 480px){
+    body{
+        width: 90%;
+        height: auto;
+        overflow-x: hidden;
+        margin-bottom:5px ;
+        margin-left:5px ;
+        margin-right: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .stepsTags{
+        width: 100%;
+        padding-top: 20px;
+        margin-left: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+       }
+
+       .btnAction {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding-right: 105px;
+        margin-right: 175px;
+        width: 60px;
+        height: 34px;
+        padding-bottom: 29px;
+      }
+
+       .columnRestaurants{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+       }
+
+       footer{
+        width: auto;
+        height: auto;
+        background-color: #282828;
+      }
+
+       .footerContent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+      }
 }
