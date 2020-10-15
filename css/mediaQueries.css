@@ -83,6 +83,14 @@
         margin-left: 15px;
     }
 
+    .restaurantIntroduction{
+      font-weight: 400;
+      font-size: 22px;
+      letter-spacing: 1.5px;
+      font-family: 'Shrikhand', cursive !important;
+      text-shadow: 2px 2px #FFFFFF;
+    }
+
     .restaurantItemContainer{
         position: relative;
         width: 295px;
@@ -132,19 +140,20 @@
         position: absolute;
         z-index:1;
         opacity:1;
+        margin-top: 6px;
         transition-property: all;
         transition-duration: 1000ms;
         transition-timing-function: linear;
         background-color: #EFEFEF;
-        margin-left: -80px;
+        margin-left: 0px;
       }
       
       .heartTemplateFull{
-        margin-top: 38px;
+        margin-top: 30px;
         position: absolute;
         z-index:0;
         color: #9356DC;
-        margin-left: -80px;
+        margin-left: 0px;
       }
 
       .heartTemplate:hover{
