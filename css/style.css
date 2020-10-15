@@ -326,6 +326,28 @@ body{
 .spacingNice{
   letter-spacing: 3px;
 }
+.heartTemplate{
+  position: absolute;
+  z-index:1;
+  opacity:1;
+  transition-property: all;
+  transition-duration: 1000ms;
+  transition-timing-function: linear;
+  background-color: #EFEFEF;
+}
+
+.heartTemplate:hover{
+  opacity: 0;
+  
+}
+
+.heartTemplateFull{
+  margin-top: 38px;
+  position: absolute;
+  z-index:0;
+  color: #9356DC;
+}
+
 .heartIconOne{
     margin-top: 10px;
     margin-left: 120px;
@@ -413,7 +435,7 @@ body{
   font-size: 20px;
   position: absolute;
   z-index:0;
-  color:#9356DC;
+  color: #9356DC;
 }
 
 .heartIconTwoFull{
