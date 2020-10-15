@@ -364,9 +364,11 @@ body{
     position: relative;
 }
 
-#fullLove{
+
+.heartIconOne:hover .fa-heart{
   color:#9356DC;
 }
+
 
 footer{
     width: auto;
@@ -427,7 +429,29 @@ footer{
     background-size: cover;
     height: 150px;
 }
+.heroTwo{
+  background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
 
+.heroThree{
+  background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.heroFour{
+  background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
   .menuHeader{
     display: flex;
     position: relative;
