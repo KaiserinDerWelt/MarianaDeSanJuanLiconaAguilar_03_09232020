@@ -686,6 +686,10 @@ footer{
   --animate-duration: 3s;
   --animate-delay: 0.9s;
 }
+.mask{
+  animation: lds-spinner;
+  animation-duration: 3s;
+}
 
 .lds-spinner {
   width: 20px;
