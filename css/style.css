@@ -312,7 +312,6 @@ body{
     margin-top: 10px;
     margin-left: 120px;
     font-size: 20px;
-    border-color: linear-gradient(to bottom right, #FF79DA,#9356DC);
 }
 
 .heartIconTwo{
@@ -637,7 +636,7 @@ footer{
 }
 
 #hideMe {
-  animation: cssAnimation 0s 5s forwards;
+  animation: cssAnimation 0s 3s forwards;
   opacity: 1; 
 }
 
