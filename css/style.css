@@ -840,7 +840,7 @@ footer{
 }
 
 .BackButton{
-	position:fixed;
+	position: absolute;
 	width:45px;
 	height:45px;
   top:22px;
