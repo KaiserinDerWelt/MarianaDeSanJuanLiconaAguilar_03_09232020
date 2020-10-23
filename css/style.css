@@ -706,7 +706,7 @@ footer{
 }
 
 .lds-spinner div:after {
-  content: "Foodie Babe";
+  content: " ";
   color: purple;
   display: block;
   position: absolute;
