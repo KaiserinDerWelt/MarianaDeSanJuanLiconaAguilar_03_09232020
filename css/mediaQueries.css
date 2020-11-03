@@ -67,7 +67,6 @@
     .stepsTags{
         width: 100%;
         padding-top: 20px;
-        margin-left: 30px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -130,6 +129,12 @@
         position: relative;
         flex-direction: column;
        }
+
+       .menuColumn {
+        width: fit-content;
+        padding-left: 30px;
+        text-align: left;
+    }
 
        .menuOffer{
         display: flex;
@@ -324,7 +329,7 @@
       }
 
        .footerContent{
-        width: 100%;
+        width: auto !important;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -335,3 +340,20 @@
         font-family: 'Roboto', sans-serif;
       }
 }
+
+@media (min-width:320px)  {
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+ }
+@media (min-width:481px)  {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+ }
+@media (min-width:641px)  { 
+ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width:961px)  { 
+ /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */ 
+ }
