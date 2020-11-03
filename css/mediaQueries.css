@@ -10,6 +10,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
+
     .lds-spinner {
         width: 20px;
         height: 20px;
@@ -65,7 +66,7 @@
         font-weight: bold;
     }
     .stepsTags{
-        width: 100%;
+        width: auto;
         padding-top: 20px;
         margin-left: 12px;
         position: relative;
@@ -99,8 +100,8 @@
 
     .restaurantItemContainer{
         position: relative;
-        width: 295px;
-        height: 190px;
+        width: 340px;
+        height: 220px;
         border-radius: 20px; 
         background-color: #FFFFFF;
         margin-top: 10px;
@@ -112,8 +113,8 @@
     }
 
     .restoPicture{
-        width: 295px;
-        height: 140px;
+        width: 340px;
+        height: 170px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         z-index: 1;
@@ -305,7 +306,7 @@
       }
 
       .BackButton{
-        position:fixed;
+        position:absolute;
         width:22px;
         height:22px;
         top:22px;
@@ -323,11 +324,21 @@
         margin-top:4px;
     }
 
+    
     .columnTitle{
         margin-left: 70px;
         margin-right: 25px;
         margin-left: 30px;
       }
+
+      .menuContainer {
+        width: fit-content;
+        height: auto;
+        margin-top: -16px;
+        background-color: #9356dc;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
 
        footer{
         width: auto;
@@ -347,15 +358,116 @@
         font-family: 'Roboto', sans-serif;
       }
 }
-
-@media (min-width:320px)  {
+@media (max-width:380px)  {
   /* smartphones, iPhone, portrait 480x320 phones */ 
+  
  }
-@media (min-width:481px)  {
+@media (min-width:559px)  {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+  .stepsTags {
+    width: auto;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .btnAction {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    width: 30px;
+    height: 34px;
+  }
+  
+   .sizeOne {
+    width: 150px;
+  }
+  
+  span {
+    padding-right: 1px;
+    font-size: 8px;
+    color: #000000;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .columnRestaurants {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footerContent {
+    width: auto;
+    height: auto;
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+  
  }
-@media (min-width:641px)  { 
+@media (min-width:660px)  { 
  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+
+ .stepsTags {
+  width: auto;
+  position: relative;
+  display: flex;
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.btnAction {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  width: 30px;
+  height: 34px;
+}
+
+ .sizeOne {
+  width: 160px;
+}
+
+span {
+  padding-right: 1px;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.columnRestaurants {
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 }
 @media (min-width:961px)  { 
  /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -363,4 +475,45 @@
 }
 @media (min-width:1025px) {
   /* big landscape tablets, laptops, and desktops */ 
+  .stepsTags {
+    width: auto;
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .btnAction {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    width: 30px;
+    height: 34px;
+}
+  .sizeOne {
+    width: 210px;
+}
+
+span {
+  padding-right: 1px;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footerContent {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
  }
