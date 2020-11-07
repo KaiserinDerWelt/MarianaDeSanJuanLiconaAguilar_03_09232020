@@ -100,7 +100,7 @@
 
     .restaurantItemContainer{
         position: relative;
-        width: 340px;
+        width: 305px;
         height: 220px;
         border-radius: 20px; 
         background-color: #FFFFFF;
@@ -113,7 +113,7 @@
     }
 
     .restoPicture{
-        width: 340px;
+        width: 305px;
         height: 170px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
